@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,12 +12,13 @@
 
         <Button
             android:id="@+id/button_about"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginEnd="0dp"
             android:layout_marginRight="0dp"
+            android:drawableTop="@drawable/ic_question_mark"
             android:text="" />
 
     </RelativeLayout>
@@ -35,6 +35,8 @@
             android:layout_height="match_parent"
             android:text="@string/students"
             android:textStyle="bold|italic"
+            android:drawableRight="@drawable/ic_thumb_down"
+            android:drawableLeft="@drawable/ic_students"
             android:layout_weight="1"/>
 
 
@@ -52,6 +54,8 @@
             android:layout_height="match_parent"
             android:text="@string/TheEiffelTower"
             android:textStyle="bold|italic"
+            android:drawableRight="@drawable/ic_thumb_up"
+            android:drawableLeft="@drawable/ic_eiffeltower"
             android:layout_weight="1"/>
 
     </LinearLayout>
@@ -68,6 +72,8 @@
             android:layout_height="match_parent"
             android:text="@string/Hamburgers"
             android:textStyle="bold|italic"
+            android:drawableRight="@drawable/ic_thumb_up"
+            android:drawableLeft="@drawable/ic_hamburger"
             android:layout_weight="1"/>
 
     </LinearLayout>
@@ -84,6 +90,8 @@
             android:layout_height="match_parent"
             android:text="@string/spiders"
             android:textStyle="bold|italic"
+            android:drawableRight="@drawable/ic_thumb_down"
+            android:drawableLeft="@drawable/ic_spider"
             android:layout_weight="1"/>
 
     </LinearLayout>
@@ -100,6 +108,8 @@
             android:layout_height="match_parent"
             android:text="@string/rap"
             android:textStyle="bold|italic"
+            android:drawableRight="@drawable/ic_thumb_up"
+            android:drawableLeft="@drawable/ic_rap"
             android:layout_weight="1"/>
 
     </LinearLayout>
@@ -116,6 +126,8 @@
             android:layout_height="match_parent"
             android:text="@string/soccer"
             android:textStyle="bold|italic"
+            android:drawableRight="@drawable/ic_thumb_up"
+            android:drawableLeft="@drawable/ic_soccer"
             android:layout_weight="1"/>
 
     </LinearLayout>
@@ -132,6 +144,8 @@
             android:layout_height="match_parent"
             android:text="@string/trump"
             android:textStyle="bold|italic"
+            android:drawableRight="@drawable/ic_thumb_down"
+            android:drawableLeft="@drawable/ic_trump"
             android:layout_weight="1"/>
 
     </LinearLayout>
@@ -148,6 +162,8 @@
             android:layout_height="match_parent"
             android:text="@string/nature"
             android:textStyle="bold|italic"
+            android:drawableRight="@drawable/ic_thumb_up"
+            android:drawableLeft="@drawable/ic_nature"
             android:layout_weight="1"/>
 
     </LinearLayout>
