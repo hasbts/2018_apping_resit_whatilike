@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">What I Like</string>
+    <string name="TheEiffelTower">The Eiffel Tower</string>
+    <string name="Hamburgers">Hamburgers</string>
+    <string name="spiders">Spiders</string>
+    <string name="rap">Rap</string>
+    <string name="trump">Trump</string>
+    <string name="soccer">Soccer</string>
+    <string name="students">Students</string>
+    <string name="nature">Nature</string>
+</resources>
